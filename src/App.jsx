@@ -368,12 +368,37 @@ function App() {
             {/* Introduction subsections */}
             {currentSection.children.map((child) => (
               <section key={child.id} id={child.id} className="subsection">
-                <div className="subsection-content">
+                <div className={`subsection-content ${child.id === 'course-outline' ? 'subsection-content-wide' : ''}`}>
                   <div className="subsection-icon">{child.icon}</div>
                   <h2 className="subsection-title">{child.name}</h2>
                   {child.id === 'swot' ? (
                     <div className="swot-container">
                       <img src={swotImage} alt="SWOT Analysis" className="swot-image" />
+                    </div>
+                  ) : child.id === 'course-outline' ? (
+                    <div className="course-outline-wrapper">
+                      <div className="course-outline-container">
+                        <iframe
+                          src="https://docs.google.com/document/d/e/2PACX-1vSz-8R6EPDJbzKwZPJOYbQHZfiCypvZfCPeZ5I6trG8bWNRP1Iy86oakqDKOrhJfg/pub?embedded=true"
+                          className="course-outline-iframe"
+                          title="Course Outline"
+                        ></iframe>
+                      </div>
+                      <div className="course-outline-actions">
+                        <a
+                          href="https://docs.google.com/document/d/1d33QQ1mbIoNPf-OAAR4PO_DdsYnyZA4t/edit?usp=sharing&rtpof=true&sd=true"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="view-original-btn"
+                        >
+                          <span>View Original Document</span>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                            <polyline points="15 3 21 3 21 9"></polyline>
+                            <line x1="10" y1="14" x2="21" y2="3"></line>
+                          </svg>
+                        </a>
+                      </div>
                     </div>
                   ) : (
                     <div className="subsection-placeholder">
