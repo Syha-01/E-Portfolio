@@ -379,7 +379,7 @@ function App() {
                     <div className="course-outline-wrapper">
                       <div className="course-outline-container">
                         <iframe
-                          src="https://docs.google.com/document/d/e/2PACX-1vSz-8R6EPDJbzKwZPJOYbQHZfiCypvZfCPeZ5I6trG8bWNRP1Iy86oakqDKOrhJfg/pub?embedded=true"
+                          src="https://docs.google.com/document/d/1d33QQ1mbIoNPf-OAAR4PO_DdsYnyZA4t/preview"
                           className="course-outline-iframe"
                           title="Course Outline"
                         ></iframe>
