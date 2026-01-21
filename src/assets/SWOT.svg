@@ -1,0 +1,58 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Quadrant Dividers -->
+  <line x1="400" y1="50" x2="400" y2="550" stroke="#adb5bd" stroke-width="2" />
+  <line x1="50" y1="300" x2="750" y2="300" stroke="#adb5bd" stroke-width="2" />
+
+  <!-- STRENGTHS (Top Left) -->
+  <rect x="50" y="50" width="340" height="240" rx="10" fill="#d4edda" stroke="#28a745" stroke-width="2" />
+  <text x="70" y="85" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#155724">STRENGTHS</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#155724">
+    <text x="75" y="115">• Logical Thinking &amp; Problem Solving</text>
+    <text x="75" y="140">• Performance under pressure</text>
+    <text x="75" y="165">• Web Building / IT Skills</text>
+    <text x="75" y="190">• Reliability (Gets the job done)</text>
+    <text x="75" y="215">• Experience training/mentoring others</text>
+  </g>
+
+  <!-- WEAKNESSES (Top Right) -->
+  <rect x="410" y="50" width="340" height="240" rx="10" fill="#f8d7da" stroke="#dc3545" stroke-width="2" />
+  <!-- Shifted Header and Text to x=455 to avoid overlap -->
+  <text x="455" y="85" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#721c24">WEAKNESSES</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#721c24">
+    <text x="460" y="115">• Chronic Procrastination</text>
+    <text x="460" y="140">• Avoidance of crowds &amp; group work</text>
+    <text x="460" y="165">• Knowledge gaps in IT terminology</text>
+    <text x="460" y="190">• Hesitation to ask questions</text>
+    <text x="460" y="215">• Aversion to mathematics</text>
+  </g>
+
+  <!-- OPPORTUNITIES (Bottom Left) -->
+  <rect x="50" y="310" width="340" height="240" rx="10" fill="#d1ecf1" stroke="#17a2b8" stroke-width="2" />
+  <text x="70" y="345" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0c5460">OPPORTUNITIES</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#0c5460">
+    <text x="75" y="375">• Use AI as a tutor to bridge knowledge gaps</text>
+    <text x="75" y="400">• Mastery of Web + AI Automation niche</text>
+    <text x="75" y="425">• Use written documentation for "voice"</text>
+    <text x="75" y="450">• Increase 1-on-1 professional network</text>
+    <text x="75" y="475">• Create "paper trail" of training success</text>
+  </g>
+
+  <!-- THREATS (Bottom Right) -->
+  <rect x="410" y="310" width="340" height="240" rx="10" fill="#fff3cd" stroke="#ffc107" stroke-width="2" />
+  <!-- Shifted Header and Text to x=455 to avoid overlap -->
+  <text x="455" y="345" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#856404">THREATS</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#856404">
+    <text x="460" y="375">• Toxic Culture (Unheard/Reprimanded)</text>
+    <text x="460" y="400">• Lack of compensation for contributions</text>
+    <text x="460" y="425">• Impending team automation plans</text>
+    <text x="460" y="450">• Procrastination impacting job security</text>
+    <text x="460" y="475">• Risks of over-reliance on AI tools</text>
+  </g>
+
+  <!-- CENTER LOGO (Radius reduced to 40 for better spacing) -->
+  <circle cx="400" cy="300" r="40" fill="white" stroke="#adb5bd" stroke-width="3" />
+  <text x="400" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="black" fill="#343a40">SWOT</text>
+</svg>

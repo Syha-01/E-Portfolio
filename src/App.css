@@ -88,6 +88,7 @@
   border: none;
   text-align: left;
   font-family: var(--font-sans);
+  color: #ffffff;
 }
 
 .nav-parent:hover {
@@ -124,6 +125,7 @@
   justify-content: center;
   opacity: 0.4;
   transition: transform var(--transition-base), opacity var(--transition-fast);
+  color: #ffffff;
 }
 
 .nav-parent-chevron.expanded {
