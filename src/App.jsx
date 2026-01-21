@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import profileImage from './assets/profile.png'
+import swotImage from './assets/SWOT.svg'
 import './App.css'
 
 // Premium SVG Icons
@@ -370,9 +371,15 @@ function App() {
                 <div className="subsection-content">
                   <div className="subsection-icon">{child.icon}</div>
                   <h2 className="subsection-title">{child.name}</h2>
-                  <div className="subsection-placeholder">
-                    Content coming soon...
-                  </div>
+                  {child.id === 'swot' ? (
+                    <div className="swot-container">
+                      <img src={swotImage} alt="SWOT Analysis" className="swot-image" />
+                    </div>
+                  ) : (
+                    <div className="subsection-placeholder">
+                      Content coming soon...
+                    </div>
+                  )}
                 </div>
               </section>
             ))}
